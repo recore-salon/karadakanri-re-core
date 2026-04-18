@@ -414,7 +414,7 @@ function MealPlansContent() {
         {/* 追加可能セット */}
         <section className="space-y-2">
           <button
-            onClick={handleNearPossible}
+            onClick={() => handleNearPossible()}
             disabled={loadingNearPossible}
             className="w-full bg-gradient-to-r from-[#FFF8F0] to-[#FFF1EC] rounded-2xl border border-[#F0D0C0] hover:border-[#E07B5A] transition-colors px-4 py-3 flex items-center gap-3 disabled:opacity-60"
           >
