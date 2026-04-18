@@ -269,7 +269,7 @@ export default function SnackPage() {
         {/* 提案ボタン */}
         {!savedPlan && retryAfter === 0 && (
           <Button
-            onClick={handleSuggest}
+            onClick={() => handleSuggest()}
             disabled={suggesting}
             className="w-full bg-[#7BC4A8] hover:bg-[#5CAB93] text-white rounded-2xl h-14 text-base font-medium"
           >
